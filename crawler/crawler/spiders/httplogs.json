@@ -1,8 +1,0 @@
-[
-{"form": "http://localhost/CodeIgniter/includes/sqli_inc", "method": null, "name": ["pid", "owner", "message-text", "submit"], "location_url": "http://localhost/CodeIgniter/pages/view/sqli"},
-{"form": "http://localhost/CodeIgniter/includes/sqli_inc2", "method": "GET", "name": ["pid2", "owner2", "message-text", "submit"], "location_url": "http://localhost/CodeIgniter/pages/view/sqli"},
-{"form": "http://localhost/CodeIgniter/includes/login_inc", "method": "post", "name": ["username", "password", "reme", "submit"], "location_url": "http://localhost/CodeIgniter/login"},
-{"form": "http://localhost/CodeIgniter/index", "method": "post", "name": ["search", "submit"], "location_url": "http://localhost/CodeIgniter/index"},
-{"form": "http://localhost/CodeIgniter/includes/post_inc", "method": "post", "name": ["type", "type", "pid", "title", "message-text", "submit"], "location_url": "http://localhost/CodeIgniter/index"},
-{"form": "http://localhost/CodeIgniter/includes/signup_inc", "method": "post", "name": ["username", "password", "email", "phone", "country", "address", "gender", "submit"], "location_url": "http://localhost/CodeIgniter/signup"}
-]
