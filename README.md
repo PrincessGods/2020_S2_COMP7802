@@ -21,3 +21,7 @@ Usage:
 	-i: run half-auto pen-test with the file of the intercepted response to inject (example: py SQLi_Det.py -i post.txt)
 	-u: run basic pen-test on a specific GET method URL (example: py SQLi_Det.py -u "http://localhost/dashboard/var/www/sqli-labs-master/Less-1/?id=1&name=admin")
 	-h: print the help document (example: py SQLi_Det.py -h)
+3. If operation -i is chosen, you must place the intercepted request headers into the post.txt file within the temp folder
+
+Test application:
+The test application is PHP MVC based web application which can be launched in any PHP development environment. The database file has been provided in the folder.

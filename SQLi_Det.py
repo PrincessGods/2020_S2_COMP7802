@@ -10,7 +10,7 @@ import difflib
 
 def banner():
     print("\n***************************************")
-    print("* SQlinjector  4.0                      *")
+    print("* SQli-Det                              *")
     print("***************************************\n")
 
 def usage():
@@ -130,7 +130,8 @@ def start(argv):
             data = data_process(url)
             print("[Info] Would you like to send a Cookie? (y/N)")
             sendC = input()
-            if sendC != "y" or sendC != "Y":
+            if sendC == "y" or sendC == "Y":
+                print("[Info] Example Cookie: PHPSESSID=nxxrp4mk2xxxnrxxxp4r8ebp48")
                 print("[Info] Please input your Cookie:")
                 cookie_raw = input().split("=")
                 cookie_dict = dict()
